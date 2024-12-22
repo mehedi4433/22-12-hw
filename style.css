@@ -1,0 +1,33 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+}
+
+.bg-image{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn3{
+    background-color: #4B1AB3;
+    border: none;
+}
+
+.btn3:hover{
+    background-color: black;
+}
+
+.btn2{
+    margin-left: -9rem;
+    background-color: #4B1AB3;
+    border: none;
+}
+
+.btn2:hover{
+    background-color: black;
+}
